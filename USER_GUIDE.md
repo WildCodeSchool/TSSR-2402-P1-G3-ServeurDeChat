@@ -36,7 +36,7 @@ Nous allons vous expliquer dans les étapes suivantes, le lancement du logiciel,
 
         ![Zulip_Launch_Win_01](Zulip_Launch_Win_01.jpg)
 
-    - soit en recherchant le logiciel
+    - soit en saisissant le nom du logiciel dans la barre de recherche Windows
 
         ![Zulip_Launch_Win_02](Zulip_Launch_Win_02.jpg)
 
