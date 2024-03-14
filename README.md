@@ -40,8 +40,8 @@ La documentation doit impérativement être jointe une fois le projet abouti, el
 
 Un dépôt GitHub a été créé à cet effet : [TSSR-2402-P1-G3-ServeurDeChat](https://github.com/WildCodeSchool/TSSR-2402-P1-G3-ServeurDeChat)
 
-Il est demandé dans un second temps, suivant la faisabilité de procéder à la personnalisation des emojis et des réactions selon les conversations.
-Ceci n'est pas une priorité. Cela pourras être intégré lors d'un Next-Step.
+Il est demandé dans un second temps, suivant l'avancée du projet de procéder à la personnalisation des emojis et des réactions selon les conversations.
+Ceci n'est pas une priorité, cette partie pourra être intégré lors d'un Next-Step.
 
 ### **2. Introduction : Mise en contexte**
 
@@ -105,9 +105,9 @@ Pour le client Ubuntu 22.04 LTS :
 - Même compte avec même mot de passe
 - Adresse IP fixe : 172.16.10.30/24
 
-Le Serveur est sous Debian 12.5.
+En ce qui concerne la version serveur, **Zulip** n'étant disponible que pour Debian, le choix est évident.
 
-Pour le serveur Debian 12.5 :
+Le Serveur est par conséquent sous Debian 12.5 :
 - Nom : SRVLX01
 - Compte : root
 - Mot de passe : Azerty1*
@@ -116,6 +116,17 @@ Pour le serveur Debian 12.5 :
 
 
 ### **5. Difficultés rencontrées**
+
+!Installation de Zulip sur le serveur 
+!
+!Configuration de Zulip sur le serveur
+!
+!Difficultés de connecter les sources sur le réseau local
+!
+!
+!
+!
+!
 
 ### **6. Solutions et/ou Alternatives trouvées pour palier aux problèmes**
 

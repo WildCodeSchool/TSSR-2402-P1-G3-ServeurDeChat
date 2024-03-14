@@ -46,9 +46,20 @@ Nous allons vous expliquer dans les étapes suivantes, le lancement du logiciel,
 
 Vous n'avez plus qu'à finaliser votre première connexion pour profiter pleinement de **Zulip**.
 
-Les étapes de première connexion sont identiques aux deux Systèmes d'exploitation _Ubuntu_ & _Windows_.
-
 Sachez également que Zulip est disponible en version web, vous pouvez vous y rendre en vous connectant avec l'url de l'organisation (https://wilder4chat.zulipchat.com/)
+
+- Première connexion
+    Les étapes de première connexion sont identiques aux deux Systèmes d'exploitation _Ubuntu_ & _Windows_.
+    Il n'y aura par conséquent qu'une méthode expliquée.
+
+    ![](attachments/Zulip_Login_01.jpg)
+
+    Remplissez le champ _Organization URL_ puis cliquez sur _Conect_
+
+    ![](attachments/Zulip_Login_03.jpg)
+
+    Une fois ces étapes complétées, vous serez connecté au **Zulip** de l'organisation.
+
 
 ## **2. Découvrir les fonctionnalités de Zulip**
 
