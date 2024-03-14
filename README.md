@@ -1,8 +1,10 @@
 # **Implémentation d'un serveur de messagerie instantanée (chat)**
 
+![Zulip](attachments/Zulip.png)
+
 Ce document est réservé à usage interne, il ne peut en aucun cas être divulgué à des tiers.
 
-Dernière mise à jour du Document : **11 mars 2024**
+Dernière mise à jour du Document : **14 mars 2024**
 
 ## **Sommaire**
 
@@ -22,26 +24,32 @@ Dernière mise à jour du Document : **11 mars 2024**
 
 ### **1. Présentation du Projet et Objectifs finaux**
 
-    Objectif principal :
-    Mettre en place un serveur de messagerie instantanée (chat) 
-    Le logiciel Zulip doit être utilisé
-    Serveur : Debian 12
-    Client : tous les OS client sont utilisable (il faut 2 clients)
+Le projet consiste à installer le software **_Zulip_** sur notre Serveur Debian, afin que celui-ci donne accés à toutes les fonctionnalités qu'offre le logiciel sur nos 2 ordinateurs Clients (Ubuntu et Windows).
 
-    Objectif secondaire :
-    Personnalisation des emojis et des réactions selon les conversations
+La Deadline du projet est fixée au **vendredi 22 mars 2024**.
 
+Une présentation de l'avancement du projet sera effectué le vendredi 15 mars 2024.
 
-Les livrables sont les résultats ou les produits finaux du projet qui sont livrés au client ou aux parties prenantes.
-Ils peuvent inclure rapports, documents, logiciels, etc.
+A l'issue du projet, les services devront être opérationnels et stables.
 
-Ils sont disponibles sur la plateforme GitHub, un dépôt a été créé à cet effet : [TSSR-2402-P1-G3-ServeurDeChat](https://github.com/WildCodeSchool/TSSR-2402-P1-G3-ServeurDeChat)
+La documentation doit impérativement être jointe une fois le projet abouti, elle seras rédigée sous format markdown et comprendras :
+
+- une documentation générale (README.md)
+- une documentation administrateur (INSTALL.md)
+- une documentation utilisateur (USER_GUIDE.md)
+
+Un dépôt GitHub a été créé à cet effet : [TSSR-2402-P1-G3-ServeurDeChat](https://github.com/WildCodeSchool/TSSR-2402-P1-G3-ServeurDeChat)
+
+Il est demandé dans un second temps, suivant la faisabilité de procéder à la personnalisation des emojis et des réactions selon les conversations.
+Ceci n'est pas une priorité. Cela pourras être intégré lors d'un Next-Step.
 
 ### **2. Introduction : Mise en contexte**
 
+Le projet devrait faciliter grandement la communication entre nos collaborateurs, et permettras ainsi d'avancer avec plus d'efficacité sur les projets en cours.
+
 ### **3. Présentation des membres du groupe et de leur rôles**
 
-Le Projet **Zulip** est composé de :
+Le Projet **Zulip** est composé des membres de la DSI :
 
 * **Anaïs Lenglet**
 * **Pierre Girard**
@@ -49,13 +57,15 @@ Le Projet **Zulip** est composé de :
 * **Yanis Hortholary**
 * **Anthony Javault**
 
-Rôle du _Scrum Master_ (SM) :
+Rappel des rôles et responsabilités :
 
-> Le SM est le garant de la bonne application de la méthode Scrum. Il est responsable de la communication entre les membres de l'équipe et de la bonne réalisation des tâches.
+- Rôle du _Scrum Master_ (SM) :
+
+    > Le SM est le garant de la bonne application de la méthode Scrum. Il est responsable de la communication entre les membres de l'équipe et de la bonne réalisation des tâches.
             
-Rôle du _Product Owner_ (PO) :
+- Rôle du _Product Owner_ (PO) :
 
-> Le PO est le représentant du client. Il est responsable de la définition des besoins et de la priorisation des tâches. Il est le garant de la qualité du produit final.
+    > Le PO est le représentant du client. Il est responsable de la définition des besoins et de la priorisation des tâches. Il est le garant de la qualité du produit final.
             
 Sont nommés pour la première semaine de Projet (Sprint 1) :
 
@@ -64,17 +74,18 @@ Sont nommés pour la première semaine de Projet (Sprint 1) :
             
 Sont nommés pour la seconde semaine de Projet (Sprint 2) :
 
-* PO : **thsh**
-* SM : **dyhjhjd**
+* PO : **Pierre Girard**
+* SM : **Anthony Javault**
 
 Attribution des tâches/activités par membre :
 
 |Activités|**Anaïs Lenglet**|**Pierre Girard**|**Julien Guillot**|**Yanis Hortholary**|**Anthony Javault**|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|Mise en place et configuration du Serveur|
-|Mise en place et configuration des Clients|
-|Tests Serveur / Client|
-|Documentation|
+|Configuration du Serveur||x|x|||
+|Configuration des Clients|||x|x||
+|Tests Serveur||x|x|||
+|Tests Clients||||x|x|
+|Documentation|x||||x|
 
 
 
@@ -84,23 +95,23 @@ Attribution des tâches/activités par membre :
 Les clients sont respectivement sous OS Windows 10 (client 1) Ubuntu 22.04 LTS (client 2).
 
 Pour le client Windows 10 : 
-Nom : CLIWIN01
-Compte utilisateur : wilder (dans le groupe des admins locaux)
-Mot de passe : Azerty1*
-Adresse IP fixe : 172.16.10.20/24
+- Nom : CLIWIN01
+- Compte utilisateur : wilder (dans le groupe des admins locaux)
+- Mot de passe : Azerty1*
+- Adresse IP fixe : 172.16.10.20/24
 
 Pour le client Ubuntu 22.04 LTS :
-Nom :  CLILIN02
-Même compte avec même mot de passe
-Adresse IP fixe : 172.16.10.30/24
+- Nom :  CLILIN02
+- Même compte avec même mot de passe
+- Adresse IP fixe : 172.16.10.30/24
 
 Le Serveur est sous Debian 12.5.
 
 Pour le serveur Debian 12.5 :
-Nom : SRVLX01
-Compte : root
-Mot de passe : Azerty1*
-Adresse IP fixe : 172.16.10.10/24
+- Nom : SRVLX01
+- Compte : root
+- Mot de passe : Azerty1*
+- Adresse IP fixe : 172.16.10.10/24
 
 
 
