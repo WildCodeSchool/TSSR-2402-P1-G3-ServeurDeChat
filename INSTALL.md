@@ -96,5 +96,4 @@ Le logiciel de messagerie **Zulip** est désormais installé et opérationnel po
 
 ## **3. FAQ**
 
-test
 
