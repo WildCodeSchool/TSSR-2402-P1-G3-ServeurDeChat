@@ -95,3 +95,6 @@ Une fois l'installation terminée, vous pouvez quitter en cliquant sur _Fermer_,
 Le logiciel de messagerie **Zulip** est désormais installé et opérationnel pour l'utilisateur. Il restera toutefois à l'utilisateur d'effectuer la configuration lors de sa première connexion (voir USER_GUIDE.md).
 
 ## **3. FAQ**
+
+test
+
