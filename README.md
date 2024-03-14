@@ -113,8 +113,6 @@ Le Serveur est par conséquent sous Debian 12.5 :
 - Mot de passe : Azerty1*
 - Adresse IP fixe : 172.16.10.10/24
 
-
-
 ### **5. Difficultés rencontrées**
 
 !Installation de Zulip sur le serveur 
@@ -123,11 +121,10 @@ Le Serveur est par conséquent sous Debian 12.5 :
 !
 !Difficultés de connecter les sources sur le réseau local
 !
-!
-!
-!
-!
+! Problème envoi mail pour invitation et registration
 
 ### **6. Solutions et/ou Alternatives trouvées pour palier aux problèmes**
+
+- Afin de résoudre le problème de """""mail""""", un serveur mail sur base Debian a été ajouté.
 
 ### **7. Next-Step : Améliorations possibles envisagées**
