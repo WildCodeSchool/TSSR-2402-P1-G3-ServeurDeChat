@@ -41,6 +41,8 @@ Pour le serveur Debian 12.5 :
 
 ### **Installation sur le serveur Debian SRVLX01**
 
+
+
 ### **Installation sur les clients**
 
 #### **Installation sur le Client Ubuntu CLILIN01**
