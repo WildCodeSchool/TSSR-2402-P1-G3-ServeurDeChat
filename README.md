@@ -4,7 +4,7 @@
 
 Ce document est réservé à usage interne, il ne peut en aucun cas être divulgué à des tiers.
 
-Dernière mise à jour du Document : **15 mars 2024**
+Dernière mise à jour du Document : **14 mars 2024**
 
 ## **Sommaire**
 
@@ -81,11 +81,11 @@ Attribution des tâches/activités par membre :
 
 |Activités|**Anaïs Lenglet**|**Pierre Girard**|**Julien Guillot**|**Yanis Hortholary**|**Anthony Javault**|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|Configuration du Serveur||x|xx|||
-|Configuration des Clients||x||x||
-|Tests Serveur||xx|xx|||
-|Tests Clients|x|||xx|x|
-|Documentation|x||||xx|
+|Configuration du Serveur||x|x|||
+|Configuration des Clients|||x|x||
+|Tests Serveur||x|x|||
+|Tests Clients||||x|x|
+|Documentation|x||||x|
 
 
 
@@ -117,29 +117,21 @@ Le Serveur est par conséquent sous Debian 12.5 :
 
 ### **5. Difficultés rencontrées**
 
-Il est quasi impossible de ne pas rencontrer de problèmes durant un projet, notre équipe n'a pas dérogé à la règle
+- Problème de communication entre les sources du réseau local
 
-- Problème de communication entre les sources sur le réseau local
+- Problème lors de l'installation côté serveur
 
-- Problème à l'installation de Zulip côté serveur
+- Config
 
-- Configuration de Zulip sur le serveur
-
-- Impossible d'ajouter des utlisateurs par invitation
-
-- Serveur Mail ajouté mais résultat infructueux pour ajout des utilisateurs
+- Ajout serveur Mail 
 
 ### **6. Solutions et/ou Alternatives trouvées pour palier aux problèmes**
-
-- Modification du fichier settings.py pour configurer le serveur
-
 - 
 
 ### **7. Next-Step : Améliorations possibles envisagées**
 
 Suite à tous les problèmes rencontrés côté serveur et principalement celui concernant l'ajout des utilisateurs, l'équipe du projet en lien avec le partenaire a envisagé de changer de logiciel, [rocket.chat](https://fr.rocket.chat/) serait la solution la plus viable.
 
-Ce choix ne remet nullement en cause la Deadline du projet. L'équipe en charge du projet redoubleras d'efforts pour rendre un produit d'exception.
+Ce choix ne remet nullement en cause la Deadline du projet. L'équipe en charge du projet redoubleras d'efforts pour rendre un produit d'exception
 
-![rocket.chat](attachments/rocketchat.png)
-
+![rocket.chat](attachments/rocketchat_original.png)
