@@ -115,21 +115,19 @@ Le Serveur est par conséquent sous Debian 12.5 :
 
 ### **5. Difficultés rencontrées**
 
-!Installation de Zulip sur le serveur 
-!
-!Configuration de Zulip sur le serveur
-!
-!Difficultés de connecter les sources sur le réseau local
-!
-!
-!
-!
-!
+- Problème de communication entre les sources sur le réseau local
+
+- Problème d'installation de Zulip côté serveur
+
+- Difficultes de configuration de Zulip sur le serveur
+
+- Problème lors de l'ajout d'utlisateur (uniquement par mail)
+
+- Ajout serveur mail pour palier aux problèmes d'ajout utlisateur (solution infructueuse)
 
 ### **6. Solutions et/ou Alternatives trouvées pour palier aux problèmes**
-- 
 
-- Afin de résoudre le problème de """""mail""""", un serveur mail sur base Debian a été ajouté.
+- Modification du fichier settings.py pour configurer le serveur
 
 ### **7. Next-Step : Améliorations possibles envisagées**
 
