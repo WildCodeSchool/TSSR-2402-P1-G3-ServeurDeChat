@@ -139,7 +139,7 @@ Il est quasi impossible de ne pas rencontrer de problèmes durant un projet, not
 
 Suite à tous les problèmes rencontrés côté serveur et principalement celui concernant l'ajout des utilisateurs, l'équipe du projet en lien avec le partenaire a envisagé de changer de logiciel, [rocket.chat](https://fr.rocket.chat/) serait la solution la plus viable.
 
-Ce choix ne remet nullement en cause la Deadline du projet. L'équipe en charge du projet redoubleras d'efforts pour rendre un produit d'exception
+Ce choix ne remet nullement en cause la Deadline du projet. L'équipe en charge du projet redoubleras d'efforts pour rendre un produit d'exception.
 
-![rocket.chat](attachments/rocketchat_original.png)
+![rocket.chat](attachments/rocketchat.png)
 
