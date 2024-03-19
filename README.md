@@ -138,4 +138,5 @@ Il apparait que RocketChat serait la solution la plus viable.
 
 Ce choix ne remet nullement en cause la Deadline du projet. L'équipe en charge du projet redoubleras d'efforts pour rendre un produit d'exception.
 
+
 ### **7. Next-Step : Améliorations possibles envisagées**
