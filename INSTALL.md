@@ -103,7 +103,7 @@ Le logiciel de messagerie **RocketChat** est désormais installé et opérationn
 
 #### **Installation sur le Client _Windows_ CLIWIN01**
 
-Depuis le Client Windows, rendez-vous sur la page de téléchargement de Zulip : [Download RocketChat for Windows](https://www.rocket.chat/download-apps).
+Depuis le Client Windows, rendez-vous sur la page de téléchargement de RocketChat : [Download RocketChat for Windows](https://www.rocket.chat/download-apps).
 
 ![RocketChat Desktop Apps](attachments/RocketChat_Download.jpg)
 

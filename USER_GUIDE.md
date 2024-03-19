@@ -24,13 +24,15 @@ Nous allons vous expliquer dans les étapes suivantes, le lancement du logiciel,
 
 - Démarrage sous Ubuntu (Linux)
 
-    Vous pouvez accéder au logiciel **Zulip** via le Menu des applications
+    Vous pouvez accéder au logiciel **RocketChat** via le Menu des applications
 
-    ![Zulip_Launch_Linux_01](attachments/Zulip_Launch_Ubuntu_01.jpg)
-
-    ![Zulip_Launch_Linux_02](attachments/Zulip_Launch_Ubuntu_02.jpg)
+    ![Linux_Rocket_Launch_01](attachments/Linux_Rocket_Launch_01.jpg)
 
     Vous pourrez ajouter Zulip à vos _Favoris_ (Clic droit, puis Ajouter aux Favoris), afin que celui-ci apparaisse sur le côté droit de votre bureau.
+
+    ![Linux_Rocket_Launch_02](attachments/Linux_Rocket_Launch_02.jpg)
+
+    ![Linux_Rocket_Launch_03](attachments/Linux_Rocket_Launch_03.jpg)
 
 - Démarrage sous Windows (Microsoft)
 
@@ -38,39 +40,45 @@ Nous allons vous expliquer dans les étapes suivantes, le lancement du logiciel,
 
     - soit via le raccourci créé sur le bureau de travail
 
-        ![Zulip_Launch_Win_01](attachments/Zulip_Launch_Win_01.jpg)
+        ![Win_Rocket_Launch_01](attachments/Win_Rocket_Launch_01.jpg)
 
     - soit en saisissant le nom du logiciel dans la barre de recherche Windows
 
-        ![Zulip_Launch_Win_02](attachments/Zulip_Launch_Win_02.jpg)
+        ![Win_Rocket_Launch_02](attachments/Win_Rocket_Launch_02.jpg)
 
-Vous n'avez plus qu'à finaliser votre première connexion pour profiter pleinement de **Zulip**.
+Vous n'avez plus qu'à finaliser votre première connexion pour profiter pleinement de **RocketChat*.
 
-Sachez également que Zulip est disponible en version web, vous pouvez vous y rendre en vous connectant avec l'url de l'organisation (https://your-best-organization.zulipchat.com/)
+Sachez également que RocketChat est disponible en version web, vous pouvez vous y rendre en vous connectant avec l'url de l'organisation (http://172.16.10.10:3000)
 
 - Première connexion
+
     Les étapes de première connexion sont identiques aux deux Systèmes d'exploitation _Ubuntu_ & _Windows_.
     Il n'y aura par conséquent qu'une méthode expliquée.
 
-    ![](attachments/Zulip_Login_01.jpg)
+    Une fois l'application démarrée, vous devrez ajouter l'url du serveur
 
-    Remplissez le champ _Organization URL_ puis cliquez sur _Connect_
+    ![Win_Rocket_Login_01](attachments/Win_Rocket_Login_01.jpg)
 
-    ![](attachments/Zulip_Login_03.jpg)
+    ![Linux_Rocket_Login_01](attachments/Linux_Rocket_Login_01.jpg)
 
-    Vous pouvez vous authentifier avec l'un des comptes proposés (_Google_, _GitHub_ ou _GitLab_).
-    Si vous ne souhaitez pas procéder ainsi, cliquez sur _S'inscrire_.
+    ![Win_Rocket_Login_02](attachments/Win_Rocket_Login_02.jpg)
 
-    ![]()
+    ![Linux_Rocket_Login_02](attachments/Linux_Rocket_Login_02.jpg)
 
-    Remplissez les champs pour finaliser votre inscription
+    puis cliquez sur _Connexion_ pour arriver à la page de connexion utilisateur
+
+    ![Win_Rocket_Login_03](attachments/Win_Rocket_Login_03.jpg)
+
+    ![Linux_Rocket_Login_03](attachments/Linux_Rocket_Login_03.jpg)
+
+
 
     
 
-    Une fois ces étapes complétées, vous serez connecté au **Zulip** de l'organisation.
+    Une fois ces étapes complétées, vous serez connecté au **RocketChat** de l'organisation.
 
 
-## **2. Découvrir les fonctionnalités de Zulip**
+## **2. Découvrir les fonctionnalités de RocketChat**
 
 ## **3. Améliorer votre expérience en personnalisant les options**
 
@@ -85,8 +93,8 @@ Sachez également que Zulip est disponible en version web, vous pouvez vous y re
     >
     >Ou bien en cliquant directement sur les vignettes ci-dessous
     >
-    >Lien Androïd [![Download for Android](attachments/google-play-badge.png)](https://play.google.com/store/apps/details?id=chat.rocket.android)
+    >[![Download for Android](attachments/google-play-badge.png)](https://play.google.com/store/apps/details?id=chat.rocket.android)
     >
-    >Lien IOS [![Download for iPhone](attachments/app-store-badge.png)](https://apps.apple.com/app/rocket-chat/id1148741252)
+    >[![Download for iPhone](attachments/app-store-badge.png)](https://apps.apple.com/app/rocket-chat/id1148741252)
     >
 
