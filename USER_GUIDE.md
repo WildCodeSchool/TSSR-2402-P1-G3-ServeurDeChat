@@ -1,16 +1,16 @@
 # Implémentation d'un serveur de messagerie instantanée (chat)
 
-![Zulip](attachments/Zulip.png)
+![RocketChat](attachments/rocketchat_original.png)
 
 Ce document est réservé à usage interne, il ne peut en aucun cas être divulgué à des tiers.
 
-Dernière mise à jour du Document : **14 mars 2024**
+Dernière mise à jour du Document : **19 mars 2024**
 
 ## **Sommaire**
 
 1. Démarrage et première connexion
 
-2. Découvrir les fonctionnalités de Zulip
+2. Découvrir les fonctionnalités de RocketChat
 
 3. Améliorer votre expérience en personnalisant les options
 
@@ -18,7 +18,7 @@ Dernière mise à jour du Document : **14 mars 2024**
 
 ## **1. Démarrage et première connexion**
 
-Vous disposez désormais du logiciel **Zulip** pour interagir avec vos collaborateurs et mener à bien vos différents projets.
+Vous disposez désormais du logiciel **RocketChat** pour interagir avec vos collaborateurs et mener à bien vos différents projets.
 
 Nous allons vous expliquer dans les étapes suivantes, le lancement du logiciel, ainsi qu'un accompagnement pour votre première connexion.
 
@@ -76,11 +76,17 @@ Sachez également que Zulip est disponible en version web, vous pouvez vous y re
 
 ## **4. FAQ**
 
-- Je suis souvent en déplacement et j'ai besoin de me connecter à Zulip sur mon Smartphone
+- Je suis souvent en déplacement et j'ai besoin de me connecter à RocketChat sur mon Smartphone
 
     >
-    > Zulip est disponible pour les mobiles, vous pouvez le télécharger directement via le site en cliquant sur le image-lien ci-dessous.
+    >RocketChat est disponible pour les mobiles
     >
-    > [![Download for Android](attachments/google-play-badge.png)](https://zulip.com/apps/android)  [![Download for iPhone](attachments/app-store-badge.png)](https://zulip.com/apps/ios)
+    >Vous pouvez aller télécharger les versions mobiles en passant par l'url [https://www.rocket.chat/download-apps](https://www.rocket.chat/download-apps)
+    >
+    >Ou bien en cliquant directement sur les vignettes ci-dessous
+    >
+    >Lien Androïd [![Download for Android](attachments/google-play-badge.png)](https://play.google.com/store/apps/details?id=chat.rocket.android)
+    >
+    >Lien IOS [![Download for iPhone](attachments/app-store-badge.png)](https://apps.apple.com/app/rocket-chat/id1148741252)
     >
 
