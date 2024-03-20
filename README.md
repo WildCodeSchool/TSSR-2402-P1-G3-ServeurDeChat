@@ -4,7 +4,7 @@
 
 Ce document est réservé à usage interne, il ne peut en aucun cas être divulgué à des tiers.
 
-Dernière mise à jour du Document : **19 mars 2024**
+Dernière mise à jour du Document : **20 mars 2024**
 
 ## **Sommaire**
 
@@ -146,3 +146,9 @@ Après analyse et concertation avec le partenaire, il apparait que **_Rocket.Cha
 Ce choix capital n'a en aucun cas remis en cause la Deadline du projet. L'équipe en charge du projet a redoublé d'efforts pour rendre un produit d'exception.
 
 ### **7. Next-Step : Améliorations possibles envisagées**
+
+Il est possible de rajouter des modules à **_Rocket.Chat_**, ceux-ci sont variés, l'ensemble des modules sont disponibles sur _MarketPlace_ interne de **_Rocket.Chat_**
+Il appartient à ladministrateur du serveur d'dapter ces modules en fonction des besoins de l'organisation
+
+A titre d'exemple, les modules **ChatGPT**, **GitHub**, **Drive** (de Google), **Twitter**, **WhatsApp** sont disponibles.
+![]()
