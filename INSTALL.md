@@ -4,7 +4,7 @@
 
 Ce document est réservé à usage interne, il ne peut en aucun cas être divulgué à des tiers.
 
-Dernière mise à jour du Document : **19 mars 2024**
+Dernière mise à jour du Document : **20 mars 2024**
 
 ## **Sommaire**
 
@@ -16,7 +16,7 @@ Dernière mise à jour du Document : **19 mars 2024**
 
 ## **1. Pré-requis techniques**
 
-Le Serveur est sous Debian 12.5.
+Le Serveur est sous Linux Debian 12.5.
 - Nom : SRVLX01
 - Compte : root
 - Mot de passe : Azerty1*
@@ -24,13 +24,13 @@ Le Serveur est sous Debian 12.5.
 
 Les clients sont respectivement sous OS Windows 10 (client 1) Ubuntu 22.04 LTS (client 2).
 
-Pour le client Windows 10 : 
+Pour le client Microsoft Windows 10 Pro 22H2 : 
 - Nom : CLIWIN01
 - Compte utilisateur : wilder (dans le groupe des admins locaux)
 - Mot de passe : Azerty1*
 - Adresse IP fixe : 172.16.10.20/24
 
-Pour le client Ubuntu 22.04 LTS :
+Pour le client Linux Ubuntu 22.04 LTS :
 - Nom :  CLILIN02
 - Même compte avec même mot de passe
 - Adresse IP fixe : 172.16.10.30/24
@@ -126,32 +126,32 @@ Le logiciel de messagerie **_Rocket.Chat_** est désormais installé et opérati
 ## **3. FAQ**
 
 1. Comment gère t'on l'administration du serveur ?
-    >
-    >L'administration se fait via un compte utilisateur ayant des droits spécifiques d'Administration, directement dans l'interface logiciel.
-    >
+>
+>L'administration se fait via un compte utilisateur ayant des droits spécifiques d'Administration, directement dans l'interface logiciel.
+>
 
 2. J'ai une erreur en lien avec le lecteur DVD ou le CDRom lors de l'installation de snap
-    >
-    >Vous devez dans ce cas allez modifier le fichier manuellement
-    >
-    >Pour ce faire, vous devrez lancer la commande
-    >
-    >`nano /etc/apt/sources.list`
-    >
-    >et modifier le fichier comme suit en désactivant la première ligne, un commentaire supplémentaire est le bienvenu.
-    >
-    >![Modify File](attachments/Debian_Modify_01.jpg)
-    >
-    >![Modify File](attachments/Debian_Modify_02.jpg)
-    >
-    >Sauvegarder votre fichier après l'avoir éditer avec `CTRL + O` puis `Entrée` et quitter l'éditeur de texte `CTRL + X`
-    >
-    >Relancez l'installation de snap
-    >
+>
+>Vous devez dans ce cas allez modifier le fichier manuellement
+>
+>Pour ce faire, vous devrez lancer la commande
+>
+>`nano /etc/apt/sources.list`
+>
+>et modifier le fichier comme suit en désactivant la première ligne, un commentaire supplémentaire est le bienvenu.
+>
+>![Modify File](attachments/Debian_Modify_01.jpg)
+>
+>![Modify File](attachments/Debian_Modify_02.jpg)
+>
+>Sauvegarder votre fichier après l'avoir éditer avec `CTRL + O` puis `Entrée` et quitter l'éditeur de texte `CTRL + X`
+>
+>Relancez l'installation de snap
+>
 
 3. Je rencontre un souci en lien avec le processeur lors de l'installation de la version serveur de **_Rocket.Chat_**
-    >
-    >Il arrive parfois que votre configuration ne supporte pas la dernière version
-    >
-    >Veuillez dans ce cas passer par la commande `snap install rocketchat-server --channel 4.x/stable` à la place de la commande basique pour l'installation.
-    >
+>
+>Il arrive parfois que votre configuration ne supporte pas la dernière version
+>
+>Veuillez dans ce cas passer par la commande `snap install rocketchat-server --channel 4.x/stable` à la place de la commande basique pour l'installation.
+>
