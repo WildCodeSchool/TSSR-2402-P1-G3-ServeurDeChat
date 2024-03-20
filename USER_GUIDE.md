@@ -194,7 +194,7 @@ En cliquant sur l'onglet _Emoji personnalisé_
 
 Vous pouvez ajouter des émoticônes que vous aurez préalablement dans votre ordinateur, donnez leur un _Nom_, un _Alias_ (raccourci clavier) et importez-les sur le serveur en cliquant sur le "petit" bouton d'importation
 
-![Linux_Rocket_Admin_03](attachments/Linux_Rocket_Admin_03.png)
+![Linux_Rocket_Admin_04](attachments/Linux_Rocket_Admin_04.png)
 
 D'autres fonctionnalités sont disponibles mais la plus grande tâche d'administration consiste à la gestion des canaux, des utilisateurs ainsi qu'aux mises à jour du serveur.
 
