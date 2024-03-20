@@ -10,7 +10,7 @@ Dernière mise à jour du Document : **20 mars 2024**
 
 1. Présentation du projet et objectifs finaux
 
-2. Introduction : Mise en contexte
+2. Introduction : mise en contexte
 
 3. Présentation des membres du groupe et de leur rôles
 
@@ -32,7 +32,7 @@ Une présentation de l'avancement du projet sera effectué le vendredi 15 mars 2
 
 A l'issue du projet, les services devront être opérationnels et stables.
 
-La documentation doit impérativement être jointe une fois le projet abouti, elle seras rédigée sous format markdown et comprendras :
+La documentation doit impérativement être jointe une fois le projet abouti, elle seras rédigée sous format markdown et comprendra :
 
 - une documentation générale (README.md)
 - une documentation administrateur (INSTALL.md)
@@ -40,12 +40,12 @@ La documentation doit impérativement être jointe une fois le projet abouti, el
 
 Un dépôt GitHub a été créé à cet effet : [TSSR-2402-P1-G3-ServeurDeChat](https://github.com/WildCodeSchool/TSSR-2402-P1-G3-ServeurDeChat)
 
-Il est demandé dans un second temps, suivant l'avancée du projet de procéder à la personnalisation des emojis et des réactions selon les conversations.
-Ceci n'est pas une priorité, cette partie pourra être intégré lors d'un Next-Step.
+Il est demandé dans un second temps, suivant l'avancée du projet, de procéder à la personnalisation des emojis et des réactions selon les conversations.
+Ceci n'est pas une priorité, cette partie pourra être intégrée lors d'un Next-Step.
 
 ### **2. Introduction : Mise en contexte**
 
-Le projet devrait faciliter grandement la communication entre nos collaborateurs, et permettras ainsi d'avancer avec plus d'efficacité sur les projets en cours.
+Le projet devrait faciliter grandement la communication entre nos collaborateurs, et permettra ainsi d'avancer avec plus d'efficacité sur les projets en cours.
 
 ### **3. Présentation des membres du groupe et de leur rôles**
 
@@ -93,6 +93,7 @@ Attribution des tâches/activités par membre :
 En ce qui concerne la version serveur, **_Rocket.Chat_** étant plus optimisé pour Debian, le choix est évident.
 
 Le Serveur est par conséquent sous Debian 12.5 :
+
 - Nom : SRVLX01
 - Compte : root
 - Mot de passe : Azerty1*
@@ -101,12 +102,14 @@ Le Serveur est par conséquent sous Debian 12.5 :
 Les clients sont respectivement sous OS Windows 10 (client 1) Ubuntu 22.04 LTS (client 2).
 
 Pour le client Windows 10 : 
+
 - Nom : CLIWIN01
 - Compte utilisateur : wilder (dans le groupe des admins locaux)
 - Mot de passe : Azerty1*
 - Adresse IP fixe : 172.16.10.20/24
 
 Pour le client Ubuntu 22.04 LTS :
+
 - Nom :  CLILIN02
 - Même compte avec même mot de passe
 - Adresse IP fixe : 172.16.10.30/24
@@ -139,7 +142,7 @@ Projet **_Rocket.Chat_**
 
 * Problème d'installation résolu en forcant l'installation avec une version précédente (voir FAQ INSTALL.md)
 
-Suite à tous les problèmes rencontrés côté serveur et principalement celui concernant l'ajout des utilisateurs, l'équipe du projet en lien avec le partenaire a par conséquent opter pour changer de logiciel de messagerie.
+Suite à tous les problèmes rencontrés côté serveur et principalement celui concernant l'ajout des utilisateurs, l'équipe du projet, en lien avec le partenaire, a par conséquent opté pour changer de logiciel de messagerie.
 
 Après analyse et concertation avec le partenaire, il apparait que **_Rocket.Chat_** est la solution la plus viable.
 
@@ -148,7 +151,6 @@ Ce choix capital n'a en aucun cas remis en cause la Deadline du projet. L'équip
 ### **7. Next-Step : Améliorations possibles envisagées**
 
 Il est possible de rajouter des modules à **_Rocket.Chat_**, ceux-ci sont variés, l'ensemble des modules sont disponibles sur _MarketPlace_ interne de **_Rocket.Chat_**
-Il appartient à ladministrateur du serveur d'dapter ces modules en fonction des besoins de l'organisation
+Il appartient à ladministrateur du serveur d'adapter ces modules en fonction des besoins de l'organisation
 
 A titre d'exemple, les modules **ChatGPT**, **GitHub**, **Drive** (de Google), **Twitter**, **WhatsApp** sont disponibles.
-![]()
