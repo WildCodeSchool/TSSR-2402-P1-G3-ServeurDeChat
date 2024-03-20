@@ -17,6 +17,7 @@ Dernière mise à jour du Document : **20 mars 2024**
 ## **1. Pré-requis techniques**
 
 Le Serveur est sous Linux Debian 12.5.
+
 - Nom : SRVLX01
 - Compte : root
 - Mot de passe : Azerty1*
@@ -24,13 +25,15 @@ Le Serveur est sous Linux Debian 12.5.
 
 Les clients sont respectivement sous OS Windows 10 (client 1) Ubuntu 22.04 LTS (client 2).
 
-Pour le client Microsoft Windows 10 Pro 22H2 : 
+Pour le client Microsoft Windows 10 Pro 22H2 :
+
 - Nom : CLIWIN01
 - Compte utilisateur : wilder (dans le groupe des admins locaux)
 - Mot de passe : Azerty1*
 - Adresse IP fixe : 172.16.10.20/24
 
 Pour le client Linux Ubuntu 22.04 LTS :
+
 - Nom :  CLILIN02
 - Même compte avec même mot de passe
 - Adresse IP fixe : 172.16.10.30/24
@@ -56,7 +59,7 @@ Et pour terminer, l'installation de **_Rocket.Chat_** version serveur
 
 `snap install rocketchat-server`
 
-A la fin de cet installation, un petit _reboot_ et votre serveur **_Rocket.Chat_** sera opérationnel
+A la fin de cette installation, un petit _reboot_ et votre serveur **_Rocket.Chat_** sera opérationnel
 
 `reboot`
 
@@ -72,7 +75,7 @@ Téléchargez l'éxécutable et lancez-le pour installer le logiciel sur le Clie
 
 Lors de l'instalation, sélectionnez les options suivantes :
 
-Cliquez sur _J'accepte_ après avoir examiner les termes de la licence
+Cliquez sur _J'accepte_ après avoir examiné les termes de la licence
 
 ![Win_Rocket_Install_01](attachments/Win_Rocket_Install_01.jpg)
 
@@ -95,7 +98,7 @@ Laissez le dossier de destination par défaut : `C:\Program Files\Rocket.Chat` p
 ![Win_Rocket_Install_05](attachments/Win_Rocket_Install_05.jpg)
 
 Une fois l'installation terminée, vous pouvez quitter en cliquant sur _Fermer_, il n'est pas obligatoire de lancer le logiciel à la fin de l'installation.
-En revanche, laissez cocher l'option `Run at startup`, ceci permettras à l'application de se lancer au démarrage de Windows
+En revanche, laissez cocher l'option `Run at startup`, ceci permettra à l'application de se lancer au démarrage de Windows
 
 ![Win_Rocket_Install_06](attachments/Win_Rocket_Install_06.jpg)
 
@@ -144,7 +147,7 @@ Le logiciel de messagerie **_Rocket.Chat_** est désormais installé et opérati
 >
 >![Modify File](attachments/Debian_Modify_02.jpg)
 >
->Sauvegarder votre fichier après l'avoir éditer avec `CTRL + O` puis `Entrée` et quitter l'éditeur de texte `CTRL + X`
+>Sauvegarder votre fichier après l'avoir édité avec `CTRL + O` puis `Entrée` et quitter l'éditeur de texte `CTRL + X`
 >
 >Relancez l'installation de snap
 >
