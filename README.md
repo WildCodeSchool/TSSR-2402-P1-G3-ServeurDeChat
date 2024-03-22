@@ -4,7 +4,7 @@
 
 Ce document est réservé à usage interne, il ne peut en aucun cas être divulgué à des tiers.
 
-Dernière mise à jour du Document : **20 mars 2024**
+Dernière mise à jour du Document : **22 mars 2024**
 
 ## **Sommaire**
 
@@ -83,16 +83,18 @@ Attribution des tâches/activités par membre :
 |Activités|**Anaïs Lenglet**|**Pierre Girard**|**Julien Guillot**|**Yanis Hortholary**|**Anthony Javault**|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |Configuration du Serveur||x|x|||
-|Configuration des Clients|||x|x||
-|Tests Serveur||x|x|||
-|Tests Clients||||x|x|
+|Configuration des Clients||x|x|x||
+|Tests Serveur||x|x|x|x|
+|Tests Clients|x|x|x|x|x|
 |Documentation|x||||x|
+|Revue Documentation|x||x|x||
+|Préparation Présentation|x|x||x|x|
 
 ### **4. Choix techniques et contraintes**
 
 En ce qui concerne la version serveur, **_Rocket.Chat_** étant plus optimisé pour Debian, le choix est évident.
 
-Le Serveur est par conséquent sous Debian 12.5 :
+Le Serveur est par conséquent sous Linux Debian 12.5 :
 
 - Nom : SRVLX01
 - Compte : root
@@ -101,14 +103,14 @@ Le Serveur est par conséquent sous Debian 12.5 :
 
 Les clients sont respectivement sous OS Windows 10 (client 1) Ubuntu 22.04 LTS (client 2).
 
-Pour le client Windows 10 : 
+Pour le client Microsoft Windows 10 Pro 22H2 : 
 
 - Nom : CLIWIN01
 - Compte utilisateur : wilder (dans le groupe des admins locaux)
 - Mot de passe : Azerty1*
 - Adresse IP fixe : 172.16.10.20/24
 
-Pour le client Ubuntu 22.04 LTS :
+Pour le client Linux Ubuntu 22.04 LTS :
 
 - Nom :  CLILIN02
 - Même compte avec même mot de passe
