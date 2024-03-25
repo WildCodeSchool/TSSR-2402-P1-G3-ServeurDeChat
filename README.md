@@ -32,8 +32,7 @@ Une présentation de l'avancement du projet sera effectué le vendredi 22 mars 2
 
 L'équipe est fière d'avoir relever ce défi, nous avons atteint l'objectif principal qui était de mettre en place un service de messagerie, basé sur **_Rocket.Chat_**.
 
-Nous avons par la même occasion atteint l'objectif secondaire, qui était la personnalisation des emojis et des réactions, vous pouvez retrouver la méthode pour les modifier dans le fichier USER_GUIDE.md
-Cette partie sera abordé lors de la démonstration
+Nous avons par la même occasion atteint l'objectif secondaire, qui était la personnalisation des emojis et des réactions, vous pouvez retrouver la méthode pour les modifier dans le fichier USER_GUIDE.md. Cette partie sera abordé lors de la démonstration
 
 La documentation jointe au projet est constitué de 3 fichiers au format markdown :
 
