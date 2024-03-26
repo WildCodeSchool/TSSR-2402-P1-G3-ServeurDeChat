@@ -188,13 +188,31 @@ En cliquant sur l'onglet _Utilisateurs_, vous pouvez ajouter directement des mem
 
 ![Linux_Rocket_Admin_02](attachments/Linux_Rocket_Admin_02.png)
 
+### Personnalisation des emojis et des réactions (objectif secondaire)
+
+Dans la partie Administration, vous pouvez ajouter des emojis personnalisés qui pourront être utiliser dans les messages sous forme d'emojis ou de réactions au messages.
+
 En cliquant sur l'onglet _Emoji personnalisé_
 
-![Linux_Rocket_Admin_03](attachments/Linux_Rocket_Admin_03.png)
+![Linux_Rocket_Emoji_01](attachments/Linux_Rocket_Emoji_01.png)
 
 Vous pouvez ajouter des émoticônes que vous aurez préalablement dans votre ordinateur, donnez leur un _Nom_, un _Alias_ (raccourci clavier) et importez-les sur le serveur en cliquant sur le "petit" bouton d'importation
 
-![Linux_Rocket_Admin_04](attachments/Linux_Rocket_Admin_04.png)
+L'utilisation lors des messages est simple, vous pouvez intégrer les emojis sous forme de réaction, en cliquant sur la petite tête à droite du message
+
+![Linux_Rocket_Emoji_02](attachments/Linux_Rocket_Emoji_02.png)
+
+Sélectionnez ensuite votre emoji de réaction dans la liste du bas ou recherchez-le gràce à son alias
+
+![Linux_Rocket_Emoji_03](attachments/Linux_Rocket_Emoji_03.png)
+
+Voici le message avec la réaction
+
+![Linux_Rocket_Emoji_04](attachments/Linux_Rocket_Emoji_04.png)
+
+Les emojis configurés dans le serveur sont communs aux deux situations, emoji et réaction
+
+![Linux_Rocket_Emoji_05](attachments/Linux_Rocket_Emoji_05.png)
 
 D'autres fonctionnalités sont disponibles mais la plus grande tâche d'administration consiste à la gestion des canaux, des utilisateurs ainsi qu'aux mises à jour du serveur.
 
