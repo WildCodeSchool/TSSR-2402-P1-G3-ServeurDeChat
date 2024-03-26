@@ -28,20 +28,19 @@ Le projet consiste à installer le software **_Rocket.Chat_** sur notre Serveur 
 
 La Deadline du projet est fixée au **vendredi 22 mars 2024**.
 
-Une présentation de l'avancement du projet sera effectué le vendredi 15 mars 2024.
+Une présentation de l'avancement du projet sera effectué le vendredi 22 mars 2024.
 
-A l'issue du projet, les services devront être opérationnels et stables.
+L'équipe est fière d'avoir relever ce défi, nous avons atteint l'objectif principal qui était de mettre en place un service de messagerie, basé sur **_Rocket.Chat_**.
 
-La documentation doit impérativement être jointe une fois le projet abouti, elle seras rédigée sous format markdown et comprendra :
+Nous avons par la même occasion atteint l'objectif secondaire, qui était la personnalisation des emojis et des réactions, vous pouvez retrouver la méthode pour les modifier dans le fichier USER_GUIDE.md. Cette partie sera abordé lors de la démonstration
+
+La documentation jointe au projet est constitué de 3 fichiers au format markdown :
 
 - une documentation générale (README.md)
 - une documentation administrateur (INSTALL.md)
 - une documentation utilisateur (USER_GUIDE.md)
 
 Un dépôt GitHub a été créé à cet effet : [TSSR-2402-P1-G3-ServeurDeChat](https://github.com/WildCodeSchool/TSSR-2402-P1-G3-ServeurDeChat)
-
-Il est demandé dans un second temps, suivant l'avancée du projet, de procéder à la personnalisation des emojis et des réactions selon les conversations.
-Ceci n'est pas une priorité, cette partie pourra être intégrée lors d'un Next-Step.
 
 ### **2. Introduction : Mise en contexte**
 
